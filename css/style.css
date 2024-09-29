@@ -3,10 +3,23 @@
 
 body{
     background-color: #222222;
-    color: white;
+    color: #f5a4d4;
     font-size: larger;
+    margin-top: 32px;
 }
 
+#matrixCanvas{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0px 0px;
+    display: block;
+    z-index: -1;
+}
+
+#mainContent{
+    margin-left: 0px;
+}
 
 
 

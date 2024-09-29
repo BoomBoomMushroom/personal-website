@@ -14,18 +14,21 @@
     "&nbsp;" for spaces in spans
     -->
 
-    <center>
+    <center id="mainContent">
+        <!-- make this first <sup> invisible to re"center" the text -->
+        <sup><sup class="roboto-regular" style="font-size: small; color: transparent; user-select: none;">&nbsp;(Yes with two i's)</sup></sup>
         <span class="roboto-bold" style="font-size: xx-large;">Hej!</span>
         <span class="roboto-regular" style="font-size: xx-large;">&nbsp;I'm Dillion</span>
+        <sup><sup class="roboto-regular" style="font-size: small;">&nbsp;(Yes with two i's)</sup></sup>
         <br><br>
         <span class="roboto-regular">Pronouns: He/Him</span>
         <br><br>
-        <span class="roboto-regular">📅&nbsp;&nbsp;&nbsp;I am <span id="ageElement"></span> years old</span>
+        <span class="roboto-regular">🎂&nbsp;&nbsp;&nbsp;I am <span id="ageElement"></span> years old</span>
         <br><br>
         <span class="roboto-regular">📌&nbsp;&nbsp;&nbsp;I am from Ohio, USA</span>
         <br><br>
         <span class="roboto-regular">🌐&nbsp;&nbsp;&nbsp;Languages I know:
-            <br>🇺🇸 American English, &nbsp;🤟 American Sign Language (ASL), &nbsp;🇸🇪 Swedish (Learning)
+            <br>🇺🇸 English, &nbsp;🤟 American Sign Language (ASL), &nbsp;🇸🇪 Swedish (Learning)
         </span>
         <br><br>
 
@@ -33,6 +36,10 @@
     </center>
 
     <script src="./js/age.js"></script>
+
+    
+    <canvas id="matrixCanvas"></canvas>
+    <script src="./js/matrix_canvas.js"></script>
 
 </body>
 </html>
